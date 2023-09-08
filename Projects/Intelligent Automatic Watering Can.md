@@ -2,11 +2,13 @@
 
 <hr>
 
-Intelligent Automatic Watering Cans, powered by Arduino, revolutionize the way we nurture our plants. 
-They combine the precision of technology with the nurturing touch of nature. 
-In this project, we'll embark on a journey to create a device that waters plants intelligently, ensuring they thrive and flourish.
-Mastering this fundamental step will serve as the cornerstone for more advanced experiments in automated gardening. 
-With the Intelligent Automatic Watering Can, we're not just building a device; we're cultivating a connection between technology and the natural world.
+Intelligent Automatic Watering Cans, powered by Arduino, revolutionize the way we nurture our plants. <p>
+They combine the precision of technology with the nurturing touch of nature. <p>
+In this project, we'll embark on a journey to create a device that waters plants intelligently, ensuring they thrive and flourish.<p>
+Mastering this fundamental step will serve as the cornerstone for more advanced experiments in automated gardening. <p>
+With the Intelligent Automatic Watering Can, we're not just building a device; we're cultivating a connection between technology and the natural world.<p>
+
+<br>
 
 ***Components Required:***
 - 1 x Arduino Uno R3
