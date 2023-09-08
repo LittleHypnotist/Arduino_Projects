@@ -41,8 +41,8 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 
 const int pinoSensor = A0;
-const int soloSeco = 65; //percentagem
-const int tempoRega = 5; //segundos
+const int soloSeco = 65; // percentage
+const int tempoRega = 5; // seconds
 int humidadeSolo = 0;
 
 void setup() {
