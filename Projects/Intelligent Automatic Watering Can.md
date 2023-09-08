@@ -35,7 +35,7 @@ With the Intelligent Automatic Watering Can, we're not just building a device; w
 
 #include <LiquidCrystal.h>
 
-// definir os pinos entre o arduino e lcd
+// define the pins between the arduino and lcd
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
@@ -47,7 +47,7 @@ int humidadeSolo = 0;
 
 void setup() {
   
-  // define o tamanho do lcd
+  // set lcd size
   lcd.begin(16, 2);
   
 }
@@ -59,12 +59,12 @@ void loop() {
   
   for(int i=0; i < 5; i++) {   
     
-    //posiciona o cursor do lcd na coluna 0 linha 1
+    // positions the lcd cursor in column 0 row 1
     lcd.setCursor(0, 1);
     lcd.print("Humidade:");
-    //leitura do sensor de humidade
+    // humidity sensor reading
     humidadeSolo = analogRead(pinoSensor);
-    //converte variação do sensor de 0 a 876 para 0 a 100, para ser usado a percentagem
+    // converts sensor variation from 0 to 876 to 0 to 100, to be used as a percentage
     humidadeSolo = map(humidadeSolo, 0, 876, 0, 100);
     
     lcd.print(humidadeSolo);
@@ -78,11 +78,11 @@ void loop() {
     lcd.clear();
     lcd.print("Rega Automatica: ");
     
-    //posiciona o cursor do LCD na coluna 0 linha 1
+    // positions the LCD cursor in column 0 row 1
     lcd.setCursor(0, 1);
     lcd.print(" A Regar...");
     
-    //motor rega 
+    // motor watering  
     digitalWrite(9, LOW);
     digitalWrite(8, HIGH);
     
@@ -94,10 +94,10 @@ void loop() {
     lcd.clear();
     lcd.print("Rega Automatica: ");
     
-    //posiciona o cursor do LCD na coluna 0 linha 1
+    // positions the LCD cursor in column 0 row 1
     lcd.setCursor(0, 1);
     
-    //motor não rega
+    // engine not watering
     digitalWrite(9, HIGH);
     digitalWrite(8, HIGH);
     
@@ -108,3 +108,5 @@ void loop() {
 }
 
 ```
+
+Link to the project on thinkercad: https://www.tinkercad.com/things/7bA13K3hDtL-intelligent-automatic-watering-can
