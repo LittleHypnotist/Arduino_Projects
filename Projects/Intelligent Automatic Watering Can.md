@@ -24,7 +24,8 @@ With the Intelligent Automatic Watering Can, we're not just building a device; w
 
 ***Circuit Diagram***
 
-<img src="![image](https://github.com/LittleHypnotist/Arduino_Projects/assets/75622692/b4557da9-1d70-4276-8bf7-9249908641c2)" width="650">
+![image](https://github.com/LittleHypnotist/Arduino_Projects/assets/75622692/92e80172-3af0-4a49-abf7-6c3f18ca2400)
+
 
 <hr>
 
