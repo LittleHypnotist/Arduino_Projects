@@ -2,11 +2,10 @@
 
 <hr>
 
-Intelligent Automatic Watering Cans, powered by Arduino, revolutionize the way we nurture our plants. 
-They combine the precision of technology with the nurturing touch of nature. 
-In this project, we'll embark on a journey to create a device that waters plants intelligently, ensuring they thrive and flourish.
-Mastering this fundamental step will serve as the cornerstone for more advanced experiments in automated gardening. 
-With the Intelligent Automatic Watering Can, we're not just building a device; we're cultivating a connection between technology and the natural world.
+Dive into the world of Arduino and security with our Keypad Door Lock project. 
+This endeavor explores the intersection of technology and safeguarding, offering a customizable solution for controlled access. 
+By delving into Arduino programming, we're crafting a system that marries digital fluency with real-world security. 
+This foundational step not only strengthens access control but also opens the door to endless possibilities in DIY security systems. 
 
 ***Components Required:***
 - 1 x Arduino Uno R3
@@ -21,9 +20,10 @@ With the Intelligent Automatic Watering Can, we're not just building a device; w
 
 ***Circuit Diagram***
 
-<img src="(![image](https://github.com/LittleHypnotist/Arduino_Projects/assets/75622692/e8e18fc6-6a88-42c2-83b3-cf8e7bdd1a71)" width="650">
+![image](https://github.com/LittleHypnotist/Arduino_Projects/assets/75622692/7753a059-bb07-4f7d-8a15-8fd649c8e3a8)
 
-<hr>![image](https://github.com/LittleHypnotist/Arduino_Projects/assets/75622692/de959732-0e07-403f-9700-a86384ec001f)
+
+<hr>
 
 
 ***Arduino Code***
@@ -179,3 +179,4 @@ void Open()
 }
 
 ```
+Link to the project on thinkercad: [Keypad-Activated Locking System](https://www.tinkercad.com/things/4yNWt79wsNo-keypad-activated-locking-system)
