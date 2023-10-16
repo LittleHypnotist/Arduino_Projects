@@ -111,4 +111,4 @@ void loop() {
 
 ```
 
-Link to the project on thinkercad: https://www.tinkercad.com/things/7bA13K3hDtL-intelligent-automatic-watering-can
+Link to the project on thinkercad: [Intelligent Automatic Watering Can](https://www.tinkercad.com/things/7bA13K3hDtL-intelligent-automatic-watering-can)
